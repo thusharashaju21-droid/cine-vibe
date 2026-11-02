@@ -21,4 +21,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('film/',include('film.urls')),
     path('music/',include('music.urls')),
+    path("opinion/",include("opinion.urls")),
 ]
